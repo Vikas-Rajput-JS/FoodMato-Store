@@ -14,9 +14,9 @@ function App() {
   
 
   return (
-    <div className="App w-[100%] h-[100vh]  flex  items-center flex-col" >
+    <div className="App w-[100%] h-[100vh]  flex  items-center flex-col"  style={{backgroundImage:'url(https://cdn.dribbble.com/users/76620/screenshots/1909179/foodpattern-drbl800.gif)'}} >
      <Header/>
-     <div className='w-[100%] h-93vh]  overflow-auto flex justify-center items-center  ' style={{backgroundImage:'url(https://cdn.dribbble.com/users/76620/screenshots/1909179/foodpattern-drbl800.gif)'}}>
+     <div className='w-[100%] h-93vh]  overflow-auto flex justify-center items-center  ' >
 
      
 <BrowserRouter>
